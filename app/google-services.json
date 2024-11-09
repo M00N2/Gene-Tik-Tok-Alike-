@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718132858634",
+    "project_id": "gene-video-host",
+    "storage_bucket": "gene-video-host.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718132858634:android:b0542b133fe9152abfb4f3",
+        "android_client_info": {
+          "package_name": "com.kay.gene"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_2ZWojU2IhU7hJ8jyhM5dC2vUdKBGhLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
