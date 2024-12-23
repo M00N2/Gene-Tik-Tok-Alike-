@@ -63,7 +63,7 @@ class SignupActivity : AppCompatActivity() {
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches())//if doesn't match email template
         {
             binding.emailInput.setError("Email not valid")
-            return
+            return;
         }
         if (password.length < 6) {
             binding.passwordInput.setError("Need at least 6 characters")
@@ -93,7 +93,7 @@ class SignupActivity : AppCompatActivity() {
                         finish()
                     }
             }
-        }.addOnFailureListener() {
+        }.addOnFailureListener {
             UiUtil.showToast(applicationContext, it.localizedMessage?: "Something went wrong")
             setInProgress(false)
         }
